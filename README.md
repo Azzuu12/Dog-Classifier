@@ -3,6 +3,7 @@
 Main goal of this project is to classifiy dog along with its bread. The model can be provided with variety of images such as images of animals form any kind 
 and bread also images of objects or any other kind of images. the model can be easily identify ig the image is contain a dog or not .
 
+
 # Getting Started
 ## 1- Put the image that you want to classify in the directroy ` uploaded_images'
 
@@ -12,13 +13,13 @@ python check_images.py --dir uploaded_images/ --arch resnet  --dogfile dognames.
 python check_images.py --dir uploaded_images/ --arch alexnet --dogfile dognames.txt 
 python check_images.py --dir uploaded_images/ --arch vgg  --dogfile dognames.txt
 ```
-### details about options:
+### Details about options:
 **check_images.py:** The file that contains the code for checking and classify the uploaded images.
 **--dir uploaded_images:** Refer to the file that contains the images that are intended to be classified.
 **--arch resnet:** Here we can choose what a pretrained model to use for classification.
 **--dogfile dognames.txt:** this file is used as a reference for identify the bread of dogs.
 
-## Sample of output:
+## Sample of output
 
 ```
 Pet Image Label Dictionary has 4 key-value pairs.
