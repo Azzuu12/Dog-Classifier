@@ -9,11 +9,11 @@ and bread also images of objects or any other kind of images. the model can be e
 
 ## 2- CLI options:
 ```
-python check_images.py --dir uploaded_images/ --arch resnet  --dogfile dognames.txt
-python check_images.py --dir uploaded_images/ --arch alexnet --dogfile dognames.txt 
-python check_images.py --dir uploaded_images/ --arch vgg  --dogfile dognames.txt
+python check_images.py --dir uploaded_images/ --arch resnet  --dogfile dognames.txt<br>
+python check_images.py --dir uploaded_images/ --arch alexnet --dogfile dognames.txt <br>
+python check_images.py --dir uploaded_images/ --arch vgg  --dogfile dognames.txt<br>
 ```
-### Details about options:
+### Details about options
 **check_images.py:** The file that contains the code for checking and classify the uploaded images.
 **--dir uploaded_images:** Refer to the file that contains the images that are intended to be classified.
 **--arch resnet:** Here we can choose what a pretrained model to use for classification.
