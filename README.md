@@ -14,10 +14,10 @@ python check_images.py --dir uploaded_images/ --arch alexnet --dogfile dognames.
 python check_images.py --dir uploaded_images/ --arch vgg  --dogfile dognames.txt
 ```
 ### Details about options
-**check_images.py:** The file that contains the code for checking and classify the uploaded images.<br/>
-**--dir uploaded_images:** Refer to the file that contains the images that are intended to be classified.<br/>
-**--arch resnet:** Here we can choose what a pretrained model to use for classification.
-**--dogfile dognames.txt:** this file is used as a reference for identify the bread of dogs.<br/>
+`check_images.py`  The file that contains the code for checking and classify the uploaded images.<br/>
+`--dir uploaded_images` Refer to the file that contains the images that are intended to be classified.<br/>
+`--arch resnet `Here we can choose what a pretrained model to use for classification.<br/>
+`--dogfile dognames.txt` this file is used as a reference for identify the bread of dogs.<br/>
 
 ## Sample of output
 
@@ -90,7 +90,7 @@ pct_correct_breed:  100.0
 Total Elapsed Time: 00 : 00 : 09
 ```
 
-## Important Note :
+## Important Note 
 **in each file in the model there is a thorough explaination about each steps, you're recommeded to read each of them carefully 
 before you go through the code**
 
