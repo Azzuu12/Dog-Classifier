@@ -1,7 +1,7 @@
 # Dog-Classifier
 # Description
-Main goal of this project is to classifiy dog along with its bread. The model can be provided with variety of images such as images of animals form any kind 
-and bread also images of objects or any other kind of images. the model can be easily identify ig the image is contain a dog or not .
+Main goal of this project is to classify dog along with its bread. The model can be provided with variety of images such as images of animals form any kind 
+and bread also images of objects or any other kind of images. the model can be easily identify if the image is contain a dog or not .
 
 
 # Getting Started
